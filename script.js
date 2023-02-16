@@ -42,7 +42,7 @@ function setTheme ( $themeName) {
         document.body.classList.add("light-mode");
         console.log("You selected the light theme")
     } else {
-        console.log("Your theme selection could not be processed")
+        console.log('Your theme selection could not be processed. Themes currently available are "dark" and "light"')
     }
 }
 
