@@ -34,9 +34,11 @@ const $bodyTheme = document.body;
 function setTheme ( $themeName) {
     if ($themeName == 'dark') {
         // $bodyTheme.classList.Add("dark-mode");
+        document.body.classList.remove("light-mode");
         document.body.classList.add("dark-mode");
         console.log("You selected the dark theme");
     } else if ($themeName == 'light') {
+        document.body.classList.remove("dark-mode");
         document.body.classList.add("light-mode");
         console.log("You selected the light theme")
     } else {
