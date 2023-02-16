@@ -1,12 +1,14 @@
 
 body {
-    background-color: #f8ede3;
-    color: #09065C;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .dark-mode {
-    background-color: #09065C;
+    background-color: #04032e;
     color: #F4C600;
+}
 
+.light-mode {
+    background-color: #f8ede3;
+    color: #09065C;
 }
